@@ -1,0 +1,45 @@
+.hero-img {
+  height: 500px;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .hero-img {
+    height: 240px;
+  }
+}
+
+.logo-nav {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bg-recanto {
+  background: #ff9211;
+  border-top: 1px solid black;
+}
+
+.bg-recanto {
+  background: #ff9211
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+.maps {
+  border-radius: 30px;
+}
+
+.titulo-principal {
+  font-size: 2.0rem;
+  font-weight: 700;
+}
+
+.navbar .nav-link {
+  font-size: 1.05rem;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+}
