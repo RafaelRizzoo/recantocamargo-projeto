@@ -38,7 +38,7 @@ $reservas = $stmt->fetchAll();
         <p class="text-muted mb-0">Olá, <?= htmlspecialchars($_SESSION["user_nome"] ?? "hóspede") ?> 👋</p>
       </div>
       <div class="d-flex gap-2">
-        <a class="btn btn-primary" href="reservar.html">Nova reserva</a>
+        <a class="btn btn-primary" href="reservar.php">Nova reserva</a>
         <a class="btn btn-outline-secondary" href="../app/auth/logout.php">Sair</a>
       </div>
     </div>
@@ -48,7 +48,7 @@ $reservas = $stmt->fetchAll();
         <?php if (empty($reservas)): ?>
           <div class="p-4">
             <p class="mb-2">Você ainda não tem reservas.</p>
-            <a class="btn btn-success" href="reservar.html">Fazer a primeira reserva</a>
+            <a class="btn btn-success" href="reservar.php">Fazer a primeira reserva</a>
           </div>
         <?php else: ?>
           <div class="table-responsive">

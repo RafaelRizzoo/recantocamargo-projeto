@@ -1,5 +1,4 @@
 <?php
-// app/confirmacao.php
 require_once __DIR__ . "/config.php";
 require_once __DIR__ . "/auth/helpers.php";
 
@@ -13,7 +12,6 @@ if ($id <= 0) {
 
 $userId = current_user_id();
 
-// Agora busca SOMENTE se a reserva for do usuário logado
 $stmt = $pdo->prepare("SELECT * FROM reservas WHERE id = :id AND user_id = :user_id LIMIT 1");
 $stmt->execute([
     ":id" => $id,
@@ -26,7 +24,6 @@ if (!$reserva) {
     die("Reserva não encontrada.");
 }
 
-// Coloque o número do anfitrião aqui (com DDI+DDD, sem +, sem espaços)
 $whatsDestino = "55SEU_NUMERO_AQUI";
 
 $mensagem =

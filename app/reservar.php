@@ -1,14 +1,9 @@
 <?php
-// app/reservar.php
 require_once __DIR__ . "/config.php";
 require_once __DIR__ . "/auth/helpers.php";
 require_login();
 
-
-
 $userId = current_user_id();
-
-
 function clean($v)
 {
     return trim($v ?? "");
@@ -21,7 +16,7 @@ $checkout = clean($_POST["checkout"] ?? "");
 $hospedes = (int) ($_POST["hospedes"] ?? 0);
 $obs = clean($_POST["obs"] ?? "");
 
-// Validações básicas
+
 if ($nome === "" || $whats === "" || $checkin === "" || $checkout === "" || $hospedes <= 0) {
     http_response_code(400);
     die("Preencha todos os campos obrigatórios.");
@@ -32,7 +27,6 @@ if (strtotime($checkout) <= strtotime($checkin)) {
     die("A data de check-out precisa ser maior que a de check-in.");
 }
 
-// Insere no banco (PDO preparado)
 $stmt = $pdo->prepare("
   INSERT INTO reservas (user_id, nome, whatsapp, checkin, checkout, hospedes, observacoes)
   VALUES (:user_id, :nome, :whats, :checkin, :checkout, :hospedes, :obs)

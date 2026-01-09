@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8" />
@@ -93,25 +93,25 @@
                     <div class="container py-3">
                         <div class="row g-3">
                             <div class="col-md-4">
-                                <div class="p-3 border rounded">✅ Casa completa</div>
+                                <div class="p-3 border rounded">Casa completa</div>
                             </div>
                             <div class="col-md-4">
-                                <div class="p-3 border rounded">✅ Conforto e privacidade</div>
+                                <div class="p-3 border rounded">Conforto e privacidade</div>
                             </div>
                             <div class="col-md-4">
-                                <div class="p-3 border rounded">✅ Próximo às atrações</div>
+                                <div class="p-3 border rounded">Próximo às atrações</div>
                             </div>
                         </div>
 
                         <div class="row g-3 py-3">
                             <div class="col-md-4">
-                                <div class="p-3 border rounded">✅ Até 10 pessoas</div>
+                                <div class="p-3 border rounded">Até 10 pessoas</div>
                             </div>
                             <div class="col-md-4">
-                                <div class="p-3 border rounded">✅ Área gourmet com churrasqueira</div>
+                                <div class="p-3 border rounded">Área gourmet com churrasqueira</div>
                             </div>
                             <div class="col-md-4">
-                                <div class="p-3 border rounded">✅ À 5 min do santuário!</div>
+                                <div class="p-3 border rounded">À 5 min do santuário!</div>
                             </div>
                         </div>
                     </div>
@@ -134,7 +134,7 @@
                 </p>
 
                 <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <!-- Card 1 -->
+
                     <div class="col">
                         <div class="card poi-card h-100 shadow-sm">
                             <img src="assets/img/Basilica.png" class="card-img-top" alt="Basílica de Aparecida">
@@ -148,7 +148,6 @@
                         </div>
                     </div>
 
-                    <!-- Card 2 -->
                     <div class="col">
                         <div class="card poi-card h-100 shadow-sm">
                             <img src="assets/img/passarela.jpg" class="card-img-top" alt="Passarela da Fé">
@@ -162,7 +161,6 @@
                         </div>
                     </div>
 
-                    <!-- Card 3 -->
                     <div class="col">
                         <div class="card poi-card h-100 shadow-sm">
                             <img src="assets/img/mirante.png" class="card-img-top" alt="Bondinho e Mirante">
@@ -176,7 +174,6 @@
                         </div>
                     </div>
 
-                    <!-- Card 4 -->
                     <div class="col">
                         <div class="card poi-card h-100 shadow-sm">
                             <img src="assets/img/caminho-do-rosario.jpg" class="card-img-top" alt="Porto Itaguaçu">
@@ -190,7 +187,6 @@
                         </div>
                     </div>
 
-                    <!-- Card 5 -->
                     <div class="col">
                         <div class="card poi-card h-100 shadow-sm">
                             <img src="assets/img/images.jfif" class="card-img-top" alt="Mercado de Aparecida">
@@ -204,7 +200,6 @@
                         </div>
                     </div>
 
-                    <!-- Card 6 -->
                     <div class="col">
                         <div class="card poi-card h-100 shadow-sm">
                             <img src="assets/img/Morro2Bdo2BCruzeiro2BEntrada2B-2BThiago2BLeon.jpg" class="card-img-top"

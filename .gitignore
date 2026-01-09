@@ -1,0 +1,19 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
+
+# Credenciais locais (NÃO subir)
+app/config.local.php
+.env
+
+# Dumps do banco (NÃO subir)
+database/*.sql
+!database/schema.sql
+!database/seed.sql
+
+# Arquivos compactados
+*.zip

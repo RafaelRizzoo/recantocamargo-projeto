@@ -80,7 +80,6 @@
                         </div>
                     </div>
 
-                    <!-- Coluna lateral (Resumo / confiança) -->
                     <div class="col-12 col-lg-5">
                         <div class="card shadow-sm mb-4">
                             <div class="card-body p-4">

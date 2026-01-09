@@ -130,7 +130,6 @@
             </div>
         </section>
 
-        <!-- Banheiro -->
         <section id="banheiro" class="py-4">
             <div class="container">
                 <div class="section-title">
@@ -208,7 +207,6 @@
                     </div>
                 </div>
 
-                <!-- CTA final -->
                 <div class="text-center mt-5">
                     <h3 class="fw-bold mb-2">Curtiu o espaço?</h3>
                     <p class="text-muted mb-3">Veja datas e envie sua solicitação em menos de 1 minuto.</p>
@@ -218,7 +216,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer class="border-top py-4 mt-auto">
         <div class="container d-flex justify-content-between flex-wrap gap-2">
             <small class="text-muted">© Recanto Camargo</small>
@@ -226,7 +223,6 @@
         </div>
     </footer>
 
-    <!-- Modal (imagem ampliada) -->
     <div class="modal fade" id="imgModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">

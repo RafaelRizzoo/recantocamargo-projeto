@@ -28,7 +28,6 @@ $nome = $_SESSION["user_nome"] ?? "usuário";
         </li>
 
         <?php if (is_logged_in()): ?>
-          <!-- Dropdown do usuário logado -->
           <li class="nav-item dropdown ms-lg-2">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Olá, <?= htmlspecialchars($nome) ?>!
@@ -40,7 +39,7 @@ $nome = $_SESSION["user_nome"] ?? "usuário";
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="<?= htmlspecialchars(url('pages/reservar.html')) ?>">
+                <a class="dropdown-item" href="<?= htmlspecialchars(url('pages/reservar.php')) ?>">
                   Nova reserva
                 </a>
               </li>
@@ -53,7 +52,6 @@ $nome = $_SESSION["user_nome"] ?? "usuário";
             </ul>
           </li>
         <?php else: ?>
-          <!-- Dropdown para quem não está logado -->
           <li class="nav-item dropdown ms-lg-2">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Conta

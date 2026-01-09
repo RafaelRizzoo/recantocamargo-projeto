@@ -40,14 +40,13 @@ try {
     ":hash" => $hash,
   ]);
 } catch (PDOException $e) {
-  // 23000 geralmente = email duplicado
+ 
   if ($e->getCode() === "23000") {
     die("Esse email já está cadastrado.");
   }
   throw $e;
 }
 
-// loga automaticamente após cadastro
 $_SESSION["user_id"] = (int) $pdo->lastInsertId();
 $_SESSION["user_nome"] = $nome;
 

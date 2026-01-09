@@ -36,7 +36,6 @@
                         </p>
                     </div>
                     <div class="col-12 col-lg-4 d-grid">
-                        <!-- WhatsApp principal -->
                         <a class="btn btn-success btn-lg" href="https://wa.link/cxwdyx" target="_blank" rel="noopener">
                             Chamar no WhatsApp
                         </a>
@@ -45,12 +44,10 @@
             </div>
         </section>
 
-        <!-- Cards -->
         <section class="pb-5">
             <div class="container" style="max-width: 980px;">
                 <div class="row g-4">
 
-                    <!-- WhatsApp -->
                     <div class="col-12 col-md-4">
                         <div class="card shadow-sm contact-card h-100">
                             <div class="card-body p-4">
@@ -64,7 +61,6 @@
                         </div>
                     </div>
 
-                    <!-- Instagram -->
                     <div class="col-12 col-md-4">
                         <div class="card shadow-sm contact-card h-100">
                             <div class="card-body p-4">
@@ -78,7 +74,6 @@
                         </div>
                     </div>
 
-                    <!-- Facebook -->
                     <div class="col-12 col-md-4">
                         <div class="card shadow-sm contact-card h-100">
                             <div class="card-body p-4">
@@ -95,7 +90,6 @@
 
                 </div>
 
-                <!-- Extra (opcional) -->
                 <div class="card shadow-sm mt-4">
                     <div class="card-body p-4">
                         <h3 class="h6 fw-bold mb-2">Dica rápida</h3>
@@ -106,7 +100,6 @@
                     </div>
                 </div>
 
-                <!-- CTA final -->
                 <div class="text-center mt-5">
                     <h3 class="fw-bold mb-2">Já sabe quando pretende ir?</h3>
                     <p class="text-muted mb-3">Faça a solicitação em menos de 1 minuto.</p>
@@ -118,7 +111,6 @@
 
     </main>
 
-    <!-- Footer -->
     <?php include __DIR__ . "/../components/footer.php"; ?>
 
 </body>
