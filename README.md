@@ -41,3 +41,12 @@ $db   = "recanto_camargo";
 $user = "root";
 $pass = "";
 $charset = "utf8mb4";
+
+### 4) Banco de dados (primeira vez)
+- Se você já tem o banco `recanto_camargo` criado, pode pular este passo.
+- Se estiver rodando o projeto pela primeira vez (ex.: em outro PC):
+  1. Abra `http://localhost/phpmyadmin`
+  2. Crie um banco chamado `recanto_camargo`
+  3. Vá em **Importar**
+  4. Selecione `database/schema.sql`
+  5. Clique em **Executar**
