@@ -17,11 +17,20 @@ Projeto de site para hospedagem em Aparecida/SP com páginas institucionais e si
 - Bootstrap 5
 
 ## Como rodar localmente (Windows + XAMPP)
-1. Instale o XAMPP e ligue **Apache** e **MySQL**
-2. Coloque o projeto em:
-   `C:\xampp\htdocs\recantocamargo`
-3. Crie um arquivo local de configuração:
-   `app/config.local.php`
+
+### 1) Instalar e iniciar o XAMPP
+1. Instale o XAMPP
+2. Inicie os serviços:
+   - **Apache**
+   - **MySQL**
+
+### 2) Colocar o projeto no htdocs
+Coloque o projeto em:
+`C:\xampp\htdocs\recantocamargo`
+
+### 3) Configurar conexão com o banco (local)
+Crie o arquivo:
+`app/config.local.php`
 
 Exemplo:
 ```php
